@@ -13,8 +13,6 @@ public abstract class Parser {
         for (var pd : parserDataList) {
             sb.append(pd.source);
             sb.append("; ");
-
-            res.Merge(pd);
         }
 
         res.source = sb.toString();
