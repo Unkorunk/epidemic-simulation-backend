@@ -9,6 +9,8 @@
 .idea/**/shelf
 
 # Gradle musorka
+.gradle
+.gradle/*
 .gradle/**
 
 # Generated files
