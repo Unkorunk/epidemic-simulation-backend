@@ -1,10 +1,13 @@
 package parser;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 
-public class DayData {
+public class DayData implements Comparable<DayData> {
     /// Key - country id
     public HashMap<Integer, CountryData> countries;
+
+    public LocalDate date;
 
     public void Merge(DayData dayData) {
         for (var entry : dayData.countries.entrySet()) {
@@ -18,5 +21,10 @@ public class DayData {
                 this.countries.put(entry.getKey(), entry.getValue());
             }
         }
+    }
+
+    @Override
+    public int compareTo(DayData other) {
+        return this.date.compareTo(other.date);
     }
 }
