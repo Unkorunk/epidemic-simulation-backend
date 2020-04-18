@@ -8,6 +8,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Gradle musorka
+.gradle/**
+
 # Generated files
 .idea/**/contentModel.xml
 
@@ -87,3 +90,9 @@ fabric.properties
 .gradle/5.2.1/javaCompile/javaCompile.lock
 .gradle/5.2.1/javaCompile/taskHistory.bin
 .idea/gradle.xml
+*.lock
+.idea/misc.xml
+.idea/misc.xml
+.idea/epidemic-simulation-backend.iml
+.idea/compiler.xml
+.idea/misc.xml
