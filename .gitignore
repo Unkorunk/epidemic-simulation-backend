@@ -98,4 +98,10 @@ fabric.properties
 .idea/misc.xml
 .idea/epidemic-simulation-backend.iml
 .idea/compiler.xml
+<<<<<<< HEAD
 .idea/misc.xml
+=======
+.idea/misc.xml
+
+.idea/*
+>>>>>>> 59dc1d38ba42d0a5d157e078ae829504dbd7c249
