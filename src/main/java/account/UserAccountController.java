@@ -61,14 +61,14 @@ public class UserAccountController {
         repository.deleteById(id);
     }
 
-    @GetMapping("/login")
-    public UserAccount account(@RequestParam(value = "login") String login,
-                               @RequestParam(value = "password") String password) {
-
-        UserAccount user = repository.findByLogin(login);
-
-        if (UserAccount.getSha256(password) == user.getPassHash()) {
-
-        }
-    }
+    //@GetMapping("/login")
+    //public UserAccount account(@RequestParam(value = "login") String login,
+    //                           @RequestParam(value = "password") String password) {
+//
+    //    UserAccount user = repository.findByLogin(login);
+//
+    //    if (UserAccount.getSha256(password) == user.getPassHash()) {
+//
+    //    }
+    //}
 }
