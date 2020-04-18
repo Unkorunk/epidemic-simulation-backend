@@ -70,9 +70,20 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-# Gradle pomoyka
+# Gradle lesenka :)
+.gradle/**/**/**
+.gradle/**/**/*
+.gradle/**/**
+.gradle/**/*
 .gradle/**
+.gradle/*
 
 # Вот эта хуйня по идее у всех создается идешкой
 .idea/epidemic-simulation-backend.iml
 .idea/compiler.xml
+
+.gradle/5.2.1/fileContent/fileContent.lock
+.gradle/5.2.1/javaCompile/classAnalysis.bin
+.gradle/5.2.1/javaCompile/javaCompile.lock
+.gradle/5.2.1/javaCompile/taskHistory.bin
+.idea/gradle.xml
