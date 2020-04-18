@@ -38,12 +38,13 @@ public class UserAccountController {
             parserData.data.get(i).countries = new HashMap<>();
             int count_countries = 2 + random.nextInt(2);
             for (int j = 0; j < count_countries; j++)  {
-                CountryData countryData = new CountryData();
-                countryData.countryId = random.nextInt(countries.length);
-                countryData.countryName = countries[countryData.countryId];
-                countryData.deaths = random.nextInt(10000);
-                countryData.infected = random.nextInt(10000);
-                countryData.recovered = random.nextInt(10000);
+                int countryId = random.nextInt(countries.length);
+                CountryData countryData = new CountryData(countryId,
+                        countries[countryId],
+                        random.nextInt(10000),
+                        random.nextInt(10000),
+                        random.nextInt(10000));
+
 
                 parserData.data.get(i).countries.put(countryData.countryId, countryData);
             }

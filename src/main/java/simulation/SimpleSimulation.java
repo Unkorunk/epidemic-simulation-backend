@@ -58,12 +58,11 @@ public class SimpleSimulation implements Simulation {
                 var countryFound = foundDay.countries.get(country_id);
                 var countryNext = infoNext.countries.get(country_id);
                 if (countryNext == null) {
-                    countryNext = new CountryData();
-                    countryNext.countryName = countryFound.countryName;
-                    countryNext.countryId = countryFound.countryId;
-                    countryNext.infected = countryFound.infected;
-                    countryNext.recovered = countryFound.recovered;
-                    countryNext.deaths = countryFound.deaths;
+                    countryNext = new CountryData(countryFound.countryId,
+                            countryFound.countryName,
+                            countryFound.infected,
+                            countryFound.recovered,
+                            countryFound.deaths);
                 } else {
                     countryNext.infected += countryFound.infected;
                     countryNext.recovered += countryFound.recovered;
@@ -120,12 +119,11 @@ public class SimpleSimulation implements Simulation {
                             var stepDeaths = (countryTo.deaths - countryFrom.deaths) / (double) count;
                             var stepRecovered = (countryTo.recovered - countryFrom.recovered) / (double) count;
 
-                            var countryInterpolated = new CountryData();
-                            countryInterpolated.countryId = countryFrom.countryId;
-                            countryInterpolated.countryName = countryFrom.countryName;
-                            countryInterpolated.infected = (int) Math.round(countryFrom.infected + j * stepInfected);
-                            countryInterpolated.deaths = (int) Math.round(countryFrom.deaths + j * stepDeaths);
-                            countryInterpolated.recovered = (int) Math.round(countryFrom.recovered + j * stepRecovered);
+                            var countryInterpolated = new CountryData(countryFrom.countryId,
+                                    countryFrom.countryName,
+                                    (int) Math.round(countryFrom.infected + j * stepInfected),
+                                    (int) Math.round(countryFrom.deaths + j * stepDeaths),
+                                    (int) Math.round(countryFrom.recovered + j * stepRecovered));
                             dayInterpolated.countries.put(countryInterpolated.countryId, countryInterpolated);
                         }
                     }
