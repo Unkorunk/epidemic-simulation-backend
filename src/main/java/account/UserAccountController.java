@@ -39,14 +39,14 @@ public class UserAccountController {
             int count_countries = 2 + random.nextInt(2);
             for (int j = 0; j < count_countries; j++)  {
                 int countryId = random.nextInt(countries.length);
-                CountryData countryData = new CountryData(countryId,
+                CountryData countryData = new CountryData(Integer.toString(countryId),
                         countries[countryId],
                         random.nextInt(10000),
                         random.nextInt(10000),
                         random.nextInt(10000));
 
 
-                parserData.data.get(i).countries.put(countryData.countryId, countryData);
+                parserData.data.get(i).countries.put(countryData.countryCode, countryData);
             }
         }
 

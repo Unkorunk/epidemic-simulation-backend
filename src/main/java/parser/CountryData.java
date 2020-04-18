@@ -1,15 +1,15 @@
 package parser;
 
 public class CountryData {
-    public CountryData(int id, String countryName, int infected, int deaths, int recovered) {
-        this.countryId = id;
+    public CountryData(String code, String countryName, int infected, int deaths, int recovered) {
+        this.countryCode = code;
         this.countryName = countryName;
         this.infected = infected;
         this.deaths = deaths;
         this.recovered = recovered;
     }
 
-    public int countryId;
+    public String countryCode;
 
     public String countryName;
 
@@ -18,16 +18,16 @@ public class CountryData {
     public int recovered;
 
     public void Merge(CountryData cd) throws Exception {
-        if (countryId != cd.countryId) {
+        if (!countryCode.equals(cd.countryCode)) {
             throw new Exception("Can't merge countries with different ids");
         }
 
-        this.infected += cd.infected;
-        this.deaths += cd.deaths;
-        this.recovered += cd.recovered;
+        this.infected = (this.infected + cd.infected) / 2;
+        this.deaths = (cd.deaths + this.deaths) / 2;
+        this.recovered = (cd.recovered + this.recovered) / 2;
     }
 
     public String toString() {
-        return countryId + " - " + countryName + ": " + infected + " " + deaths + " " + recovered;
+        return countryCode + " - " + countryName + ": " + infected + " " + deaths + " " + recovered;
     }
 }

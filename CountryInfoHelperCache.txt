@@ -1,0 +1,781 @@
+CountryInfoHelper cache
+Papua New Guinea
+PG
+Papua New Guinea
+8606316
+Cambodia
+KH
+Cambodia
+16249798
+Kazakhstan
+KZ
+Kazakhstan
+18276499
+Paraguay
+PY
+Paraguay
+6956071
+Syria
+SY
+Syria
+16906283
+Bahamas
+BS
+Bahamas
+385640
+Montserrat
+MS
+Montserrat
+9341
+Mali
+ML
+Mali
+19077690
+Panama
+PA
+Panama
+4176873
+Laos
+LA
+Laos
+7061507
+Argentina
+AR
+Argentina
+44494502
+Falkland Islands
+FK
+Falkland Islands
+2638
+Seychelles
+SC
+Seychelles
+96762
+Zambia
+ZM
+Zambia
+17351822
+Belize
+BZ
+Belize
+383071
+Bahrain
+BH
+Bahrain
+1569439
+Kyrgyz Republic
+KG
+Kyrgyzstan
+6315800
+Guinea-Bissau
+GW
+Guinea-Bissau
+1874309
+Namibia
+NA
+Namibia
+2448255
+Finland
+FI
+Finland
+5518050
+North Macedonia
+MK
+North Macedonia
+2082958
+Georgia
+GE
+Georgia
+3731000
+Yemen
+YE
+Yemen
+28498687
+Madagascar
+MG
+Madagascar
+22005222
+Aruba
+AW
+Aruba
+105845
+Ivory Coast
+CI
+Ivory Coast
+25069229
+Libya
+LY
+Libya
+6678567
+Bosnia
+BA
+Bosnia and Herzegovina
+3323929
+Sweden
+SE
+Sweden
+10183175
+Malawi
+MW
+Malawi
+17563749
+Andorra
+AD
+Andorra
+77006
+Liechtenstein
+LI
+Liechtenstein
+37910
+Poland
+PL
+Poland
+37978548
+Bulgaria
+BG
+Bulgaria
+7000039
+Jordan
+JO
+Jordan
+9956011
+Tunisia
+TN
+Tunisia
+11565204
+United Arab Emirates
+AE
+United Arab Emirates
+9630959
+Kenya
+KE
+Kenya
+51393010
+French Polynesia
+PF
+French Polynesia
+277679
+Lebanon
+LB
+Lebanon
+6848925
+Djibouti
+DJ
+Djibouti
+623891
+Brunei
+BN
+Brunei
+428962
+Azerbaijan
+AZ
+Azerbaijan
+9942334
+Cuba
+CU
+Cuba
+11167325
+Saint Lucia
+LC
+Saint Lucia
+181889
+Mauritania
+MR
+Mauritania
+4403319
+Israel
+IL
+Israel
+8883800
+San Marino
+SM
+San Marino
+4500
+Australia
+AU
+Australia
+24992369
+Myanmar
+MM
+Myanmar
+53708395
+Cameroon
+CM
+Cameroon
+25216237
+Gibraltar
+GI
+Gibraltar
+26544
+Cyprus
+CY
+Cyprus
+1140000
+St. Barth?lemy
+BL
+Saint Barth?lemy
+8450
+Malaysia
+MY
+Malaysia
+31528585
+Iceland
+IS
+Iceland
+353574
+Oman
+OM
+Oman
+4829483
+Cura?ao
+CW
+Cura?ao
+159849
+Armenia
+AM
+Armenia
+2951776
+Gabon
+GA
+Gabon
+2119275
+Luxembourg
+LU
+Luxembourg
+607728
+Brazil
+BR
+Brazil
+209469333
+Turks and Caicos Islands
+TC
+Turks and Caicos Islands
+37665
+Algeria
+DZ
+Algeria
+42228429
+Slovenia
+SI
+Slovenia
+2067372
+Antigua and Barbuda
+AG
+Antigua and Barbuda
+96286
+Ecuador
+EC
+Ecuador
+17084357
+Colombia
+CO
+Colombia
+49648685
+Moldova
+MD
+Moldova
+3545883
+Italy
+IT
+Italy
+60431283
+Honduras
+HN
+Honduras
+9587522
+Haiti
+HT
+Haiti
+11123176
+Afghanistan
+AF
+Afghanistan
+37172386
+Burundi
+BI
+Burundi
+11175378
+Singapore
+SG
+Singapore
+3547809
+Vatican City
+VA
+Vatican City
+829
+Russia
+JM
+Jamaica
+872
+Netherlands
+NL
+Netherlands
+17231017
+China
+CN
+China
+1392730000
+Sint Maarten
+SX
+Sint Maarten
+40654
+Bhutan
+BT
+Bhutan
+754394
+Romania
+RO
+Romania
+19473936
+Togo
+TG
+Togo
+7889094
+Philippines
+PH
+Philippines
+106651922
+Uzbekistan
+UZ
+Uzbekistan
+32955400
+British Virgin Islands
+VG
+British Virgin Islands
+29802
+Zimbabwe
+ZW
+Zimbabwe
+14439018
+Montenegro
+ME
+Montenegro
+622345
+Indonesia
+ID
+Indonesia
+267663435
+Benin
+BJ
+Benin
+11485048
+Angola
+AO
+Angola
+30809762
+Sudan
+SD
+Sudan
+41801533
+Portugal
+PT
+Portugal
+10281762
+New Caledonia
+NC
+New Caledonia
+284060
+Grenada
+GD
+Grenada
+111454
+Greece
+GR
+Greece
+10727668
+Cayman Islands
+KY
+Cayman Islands
+64174
+Latvia
+LV
+Latvia
+1926542
+Mongolia
+MN
+Mongolia
+3170208
+Iran
+IR
+Iran
+81800269
+Morocco
+MA
+Morocco
+36029138
+Guatemala
+GT
+Guatemala
+17247807
+Guyana
+GY
+Guyana
+779004
+Iraq
+IQ
+Iraq
+38433600
+Chile
+CL
+Chile
+18729160
+Nepal
+NP
+Nepal
+28087871
+Isle of Man
+IM
+Isle of Man
+84077
+Ukraine
+UA
+Ukraine
+44622516
+Ghana
+GH
+Ghana
+29767108
+Cura?ao
+CW
+Cura?ao
+159849
+Anguilla
+AI
+Anguilla
+13254
+India
+IN
+India
+1352617328
+Canada
+CA
+Canada
+37058856
+Maldives
+MV
+Maldives
+515696
+Turkey
+TR
+Turkey
+82319724
+Belgium
+BE
+Belgium
+11422068
+Taiwan
+TW
+Taiwan
+22894384
+South Africa
+ZA
+South Africa
+57779622
+Trinidad and Tobago
+TT
+Trinidad and Tobago
+1389858
+Bermuda
+BM
+Bermuda
+63968
+Central African Republic
+CF
+Central African Republic
+4666377
+Jamaica
+JM
+Jamaica
+2950210
+Peru
+PE
+Peru
+31989256
+Germany
+DE
+Germany
+82927922
+Fiji
+FJ
+Fiji
+883483
+Hong Kong
+HK
+Hong Kong
+7012738
+United States
+US
+United States
+327167434
+Guinea
+GN
+Guinea
+12414318
+Somalia
+SO
+Somalia
+15008154
+Chad
+TD
+Chad
+15477751
+Thailand
+TH
+Thailand
+69428524
+Equatorial Guinea
+GQ
+Equatorial Guinea
+1308974
+Costa Rica
+CR
+Costa Rica
+4999441
+Vietnam
+VN
+Vietnam
+95540395
+Kuwait
+KW
+Kuwait
+4137309
+Nigeria
+NG
+Nigeria
+195874740
+Croatia
+HR
+Croatia
+4089400
+Uruguay
+UY
+Uruguay
+3449299
+Sri Lanka
+LK
+Sri Lanka
+21670000
+Timor-Leste
+TL
+Timor-Leste
+1267972
+United Kingdom
+GB
+United Kingdom
+66488991
+Switzerland
+CH
+Switzerland
+8516543
+Spain
+ES
+Spain
+46723749
+Palestine
+US
+United States
+18288
+Venezuela
+VE
+Venezuela
+28870195
+Liberia
+LR
+Liberia
+4818977
+Burkina Faso
+BF
+Burkina Faso
+19751535
+Estonia
+EE
+Estonia
+1320884
+Austria
+AT
+Austria
+8847037
+South Korea
+KR
+South Korea
+51635256
+Mozambique
+MZ
+Mozambique
+29495962
+El Salvador
+SV
+El Salvador
+6420744
+Monaco
+MC
+Monaco
+32965
+Hungary
+HU
+Hungary
+9768785
+South Sudan
+SS
+South Sudan
+8260490
+Japan
+JP
+Japan
+126529100
+Belarus
+BY
+Belarus
+9485386
+Mauritius
+MU
+Mauritius
+1265303
+Albania
+AL
+Albania
+2866376
+New Zealand
+NZ
+New Zealand
+4885500
+St. Kitts and Nevis
+KN
+St Kitts and Nevis
+52441
+Senegal
+SN
+Senegal
+15854360
+DR Congo
+CD
+DR Congo
+84068091
+Ethiopia
+ET
+Ethiopia
+109224559
+Czechia
+CZ
+Czechia
+10625695
+Egypt
+EG
+Egypt
+98423595
+Macau
+MO
+Macao
+520400
+Sierra Leone
+SL
+Sierra Leone
+7650154
+Bolivia
+BO
+Bolivia
+11353142
+Malta
+MT
+Malta
+483530
+Saudi Arabia
+SA
+Saudi Arabia
+33699947
+Cape Verde
+CV
+Cabo Verde
+543767
+Pakistan
+PK
+Pakistan
+212215030
+Gambia
+GM
+Gambia
+2280102
+Ireland
+GB
+United Kingdom
+6570000
+Qatar
+QA
+Qatar
+2781677
+Slovakia
+SK
+Slovakia
+5447011
+France
+FR
+France
+66987244
+Serbia
+RS
+Serbia
+6982084
+Lithuania
+LT
+Lithuania
+2789533
+Niger
+NE
+Niger
+22442948
+Rwanda
+RW
+Rwanda
+12301939
+St. Barth?lemy
+BL
+Saint Barth?lemy
+8450
+Bangladesh
+BD
+Bangladesh
+161356039
+Barbados
+BB
+Barbados
+286641
+Nicaragua
+NI
+Nicaragua
+6465513
+Norway
+NO
+Norway
+5314336
+Botswana
+BW
+Botswana
+2254126
+Saint Vincent and the Grenadines
+VC
+St Vincent and Grenadines
+110211
+Denmark
+DK
+Denmark
+5797446
+Dominican Republic
+DO
+Dominican Republic
+10627165
+Mexico
+MX
+Mexico
+12294193
+Uganda
+UG
+Uganda
+42723139
+Suriname
+SR
+Suriname
+575991
+Greenland
+BB
+Barbados
+623

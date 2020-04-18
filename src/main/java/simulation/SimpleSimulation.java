@@ -58,7 +58,7 @@ public class SimpleSimulation implements Simulation {
                 var countryFound = foundDay.countries.get(country_id);
                 var countryNext = infoNext.countries.get(country_id);
                 if (countryNext == null) {
-                    countryNext = new CountryData(countryFound.countryId,
+                    countryNext = new CountryData(countryFound.countryCode,
                             countryFound.countryName,
                             countryFound.infected,
                             countryFound.recovered,
@@ -119,12 +119,12 @@ public class SimpleSimulation implements Simulation {
                             var stepDeaths = (countryTo.deaths - countryFrom.deaths) / (double) count;
                             var stepRecovered = (countryTo.recovered - countryFrom.recovered) / (double) count;
 
-                            var countryInterpolated = new CountryData(countryFrom.countryId,
+                            var countryInterpolated = new CountryData(countryFrom.countryCode,
                                     countryFrom.countryName,
                                     (int) Math.round(countryFrom.infected + j * stepInfected),
                                     (int) Math.round(countryFrom.deaths + j * stepDeaths),
                                     (int) Math.round(countryFrom.recovered + j * stepRecovered));
-                            dayInterpolated.countries.put(countryInterpolated.countryId, countryInterpolated);
+                            dayInterpolated.countries.put(countryInterpolated.countryCode, countryInterpolated);
                         }
                     }
                     source.data.add(dayInterpolated);

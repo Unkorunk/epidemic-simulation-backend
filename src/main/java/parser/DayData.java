@@ -5,12 +5,12 @@ import java.util.HashMap;
 
 public class DayData implements Comparable<DayData> {
     public DayData() {
-        countries = new HashMap<Integer, CountryData>();
+        countries = new HashMap<String, CountryData>();
         date = LocalDate.now();
     }
 
-    /// Key - country id
-    public HashMap<Integer, CountryData> countries;
+    /// Key - country code
+    public HashMap<String, CountryData> countries;
 
     public LocalDate date;
 

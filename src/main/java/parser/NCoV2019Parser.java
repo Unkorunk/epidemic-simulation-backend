@@ -6,9 +6,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Locale;
 
 public class NCoV2019Parser extends Parser {
     public ParserData Parse() {
@@ -34,8 +31,6 @@ public class NCoV2019Parser extends Parser {
         Element globalContainer = doc.getElementById("container_global");
         Elements rows = globalContainer.getElementsByTag("tr");
 
-        int id = 0;
-
         for (var el : rows) {
             var country = el.getElementsByAttributeValue("data-type", "country");
 
@@ -50,11 +45,13 @@ public class NCoV2019Parser extends Parser {
                 var blueEls = el.getElementsByClass("text--blue");
                 int recovered = Integer.parseInt(blueEls.eachText().get(0).replace(",", ""));
 
+                Country countryInfo = CountryInfoHelper.GetCountryInfo(name);
+                if (countryInfo == null) {
+                    continue;
+                }
 
-
-                var cData = new CountryData(id, name, infected, deaths, recovered);
-                todayData.countries.put(id, cData);
-                id++;
+                var cData = new CountryData(countryInfo.countryCode, countryInfo.name, infected, deaths, recovered);
+                todayData.countries.put(countryInfo.countryCode, cData);
             }
         }
 
