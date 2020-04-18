@@ -5,7 +5,7 @@ import java.util.List;
 public abstract class Parser {
     public abstract ParserData Parse();
 
-    public ParserData Merge(List<ParserData> parserDataList) {
+    public static ParserData Merge(List<ParserData> parserDataList) {
         var res = new ParserData();
 
         StringBuilder sb = new StringBuilder();
@@ -13,6 +13,8 @@ public abstract class Parser {
         for (var pd : parserDataList) {
             sb.append(pd.source);
             sb.append("; ");
+
+            res.Merge(pd);
         }
 
         res.source = sb.toString();
