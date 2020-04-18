@@ -11,6 +11,15 @@ public class SimpleSimulation implements Simulation {
     private List<ParserData> sources = new LinkedList<>();
     private DayData infoNow;
 
+    public SimpleSimulation() {
+        infoNow = null;
+    }
+
+    public SimpleSimulation(LocalDate startDate) {
+        infoNow = new DayData();
+        infoNow.date = startDate;
+    }
+
     private static class MyComparator implements Comparator<DayData> {
         @Override
         public int compare(DayData o1, DayData o2) {
@@ -21,7 +30,15 @@ public class SimpleSimulation implements Simulation {
     @Override
     public void Tick(int duration) {
         DayData infoNext = new DayData();
-        infoNext.date = infoNow.date.plusDays(duration);
+        if (infoNow == null) {
+            if (sources.size() == 0) throw new RuntimeException();
+            infoNext.date = LocalDate.MAX;
+            for (var parsedData : sources) {
+                infoNext.date = LocalDate.ofEpochDay(Math.min(infoNext.date.toEpochDay(), parsedData.data.get(0).date.toEpochDay()));
+            }
+        } else {
+            infoNext.date = infoNow.date.plusDays(duration);
+        }
 
         int count = 0;
         for (var parserData : sources) {
@@ -71,10 +88,20 @@ public class SimpleSimulation implements Simulation {
     @Override
     public void Reset() {
         sources.clear();
+        infoNow = null;
+    }
+
+    @Override
+    public void Reset(LocalDate startDate) {
+        sources.clear();
+        infoNow = new DayData();
+        infoNow.date = startDate;
     }
 
     @Override
     public void AddInfo(ParserData source) {
+        if (source.data.size() == 0) return;
+
         int length = source.data.size();
         for (int i = 1; i < length; i++) {
             var from = source.data.get(i - 1);
@@ -113,6 +140,8 @@ public class SimpleSimulation implements Simulation {
 
     @Override
     public DayData GetInfo() {
+        if (infoNow == null) throw new RuntimeException();
+
         return infoNow;
     }
 }
