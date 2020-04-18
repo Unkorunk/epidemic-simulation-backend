@@ -1,4 +1,4 @@
-package main.java.Parser;
+package parser;
 
 import java.util.Date;
 import java.util.Dictionary;

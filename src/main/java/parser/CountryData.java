@@ -1,4 +1,4 @@
-package main.java.Parser;
+package parser;
 
 public class CountryData {
     public int countryId;
