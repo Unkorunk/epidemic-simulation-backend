@@ -96,3 +96,5 @@ fabric.properties
 .idea/epidemic-simulation-backend.iml
 .idea/compiler.xml
 .idea/misc.xml
+
+.idea/*
