@@ -3,6 +3,8 @@ import parser.ParserData;
 import simulation.SimpleSimulation;
 import simulation.Simulation;
 
+import java.util.Locale;
+
 public class EpidemicSimulation {
     public static void main(String[] args) {
 //        Simulation simulation = new SimpleSimulation();

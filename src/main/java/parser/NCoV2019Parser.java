@@ -8,6 +8,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class NCoV2019Parser extends Parser {
     public ParserData Parse() {
@@ -48,6 +49,8 @@ public class NCoV2019Parser extends Parser {
 
                 var blueEls = el.getElementsByClass("text--blue");
                 int recovered = Integer.parseInt(blueEls.eachText().get(0).replace(",", ""));
+
+
 
                 var cData = new CountryData(id, name, infected, deaths, recovered);
                 todayData.countries.put(id, cData);
