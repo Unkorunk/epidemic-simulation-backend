@@ -12,7 +12,7 @@ import parser.DayData;
 import parser.NCoV2019Parser;
 import parser.ParserData;
 
-@CrossOrigin(origins = {"http://localhost:80"}, maxAge = 3600)
+@CrossOrigin(origins = {"http://104.248.59.99/"}, maxAge = 3600)
 @RestController
 public class UserAccountController {
 //
