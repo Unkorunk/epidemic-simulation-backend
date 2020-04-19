@@ -7,12 +7,9 @@ import java.util.List;
 import java.util.Random;
 
 import org.springframework.web.bind.annotation.*;
-import parser.CountryData;
-import parser.DayData;
-import parser.NCoV2019Parser;
-import parser.ParserData;
+import parser.*;
 
-@CrossOrigin(origins = {"http://104.248.59.99/"}, maxAge = 3600)
+@CrossOrigin(origins = {"http://104.248.59.99"}, maxAge = 3600)
 @RestController
 public class UserAccountController {
 //
@@ -59,6 +56,12 @@ public class UserAccountController {
     @RequestMapping("/today")
     public ParserData getTodayParserData() {
         var parser = new NCoV2019Parser();
+        return parser.Parse();
+    }
+
+    @RequestMapping("/JHUCSSE")
+    public ParserData getJHUCSSEParserData() {
+        var parser = new JHUCSSEParser();
         return parser.Parse();
     }
 

@@ -279,9 +279,9 @@ Cyprus
 CY
 Cyprus
 1140000
-St. Barthélemy
+St. Barth?lemy
 BL
-Saint Barthélemy
+Saint Barth?lemy
 8450
 Malaysia
 MY
@@ -503,6 +503,10 @@ Dominica
 DM
 Dominica
 71625
+Curaçao
+CW
+Curaçao
+159849
 Benin
 BJ
 Benin
@@ -603,9 +607,9 @@ Ghana
 GH
 Ghana
 29767108
-Curaçao
+Cura?ao
 CW
-Curaçao
+Cura?ao
 159849
 Holy See
 VA
@@ -959,6 +963,10 @@ Rwanda
 RW
 Rwanda
 12301939
+St. Barthélemy
+BL
+Saint Barthélemy
+8450
 Burma
 MM
 Myanmar
