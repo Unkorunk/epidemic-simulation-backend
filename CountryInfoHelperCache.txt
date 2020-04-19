@@ -255,6 +255,7 @@ french polynesia
 PF
 French Polynesia
 277679
+<<<<<<< HEAD
 honduras
 HN
 Honduras
@@ -268,6 +269,89 @@ CL
 Chile
 18729160
 oman
+=======
+Lebanon
+LB
+Lebanon
+6848925
+Djibouti
+DJ
+Djibouti
+623891
+Brunei
+BN
+Brunei
+428962
+Azerbaijan
+AZ
+Azerbaijan
+9942334
+Cuba
+CU
+Cuba
+11167325
+Czech Republic
+CZ
+Czechia
+10625695
+Saint Lucia
+LC
+Saint Lucia
+181889
+Mauritania
+MR
+Mauritania
+4403319
+Guernsey
+GG
+Guernsey
+65228
+Mayotte
+YT
+Mayotte
+159042
+Israel
+IL
+Israel
+8883800
+San Marino
+SM
+San Marino
+4500
+Australia
+AU
+Australia
+24992369
+Myanmar
+MM
+Myanmar
+53708395
+Cameroon
+CM
+Cameroon
+25216237
+Gibraltar
+GI
+Gibraltar
+26544
+Cyprus
+CY
+Cyprus
+1140000
+St. Barth?lemy
+BL
+Saint Barth?lemy
+8450
+Malaysia
+MY
+Malaysia
+31528585
+Iceland
+IS
+Iceland
+353574
+Oman
+>>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 OM
 Oman
 4829483
@@ -447,6 +531,7 @@ indonesia
 ID
 Indonesia
 267663435
+<<<<<<< HEAD
 nicaragua
 NI
 Nicaragua
@@ -492,6 +577,33 @@ MZ
 Mozambique
 29495962
 portugal
+=======
+Dominica
+DM
+Dominica
+71625
+Curaçao
+CW
+Curaçao
+159849
+Benin
+BJ
+Benin
+11485048
+Angola
+AO
+Angola
+30809762
+Sudan
+SD
+Sudan
+41801533
+East Timor
+TL
+Timor-Leste
+1267972
+Portugal
+>>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 PT
 Portugal
 10281762
@@ -575,6 +687,7 @@ isle of man
 IM
 Isle of Man
 84077
+<<<<<<< HEAD
 mexico
 MX
 Mexico
@@ -584,6 +697,57 @@ TN
 Tunisia
 11565204
 bahamas
+=======
+Ukraine
+UA
+Ukraine
+44622516
+Tanzania
+TZ
+Tanzania
+56318348
+Ghana
+GH
+Ghana
+29767108
+Cura?ao
+CW
+Cura?ao
+159849
+Holy See
+VA
+Vatican City
+921
+Congo (Brazzaville)
+CG
+Congo Republic
+5244363
+Anguilla
+AI
+Anguilla
+13254
+India
+IN
+India
+1352617328
+Canada
+CA
+Canada
+37058856
+Maldives
+MV
+Maldives
+515696
+Turkey
+TR
+Turkey
+82319724
+Belgium
+BE
+Belgium
+11422068
+The Bahamas
+>>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 BS
 Bahamas
 385640
@@ -775,7 +939,55 @@ saint vincent and the grenadines
 null
 null
 null
+<<<<<<< HEAD
 barbados
+=======
+France
+FR
+France
+66987244
+Serbia
+RS
+Serbia
+6982084
+Lithuania
+LT
+Lithuania
+2789533
+Bosnia and Herzegovina
+BA
+Bosnia and Herzegovina
+3323929
+Republic of Ireland
+IE
+Ireland
+4853506
+Niger
+NE
+Niger
+22442948
+Rwanda
+RW
+Rwanda
+12301939
+St. Barthélemy
+BL
+Saint Barthélemy
+8450
+Burma
+MM
+Myanmar
+53708395
+St. Barth?lemy
+BL
+Saint Barth?lemy
+8450
+Bangladesh
+BD
+Bangladesh
+161356039
+Barbados
+>>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 BB
 Barbados
 286641
