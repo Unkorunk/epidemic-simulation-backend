@@ -51,4 +51,8 @@ public class ParserData {
 
         this.data = mergedData;
     }
+
+    public void Sort() {
+        Collections.sort(data);
+    }
 }

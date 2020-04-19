@@ -57,6 +57,8 @@ public class NCoV2019Parser extends Parser {
 
         res.data.add(todayData);
 
+        CountryInfoHelper.SaveCache();
+
         return res;
     }
 }

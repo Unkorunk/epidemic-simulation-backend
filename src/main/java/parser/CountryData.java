@@ -27,6 +27,16 @@ public class CountryData {
         this.recovered = (cd.recovered + this.recovered) / 2;
     }
 
+    public void Add(CountryData cd) throws Exception {
+        if (!countryCode.equals(cd.countryCode)) {
+            throw new Exception("Can't merge countries with different ids");
+        }
+
+        this.infected += cd.infected;
+        this.deaths += cd.deaths;
+        this.recovered += cd.recovered;
+    }
+
     public String toString() {
         return countryCode + " - " + countryName + ": " + infected + " " + deaths + " " + recovered;
     }
