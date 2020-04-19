@@ -42,6 +42,20 @@ public class DayData implements Comparable<DayData> {
         countries.put(cd.countryCode, cd);
     }
 
+    public CountryData GetTotal() {
+        int infected = 0;
+        int recovered = 0;
+        int deaths = 0;
+
+        for (var entry : countries.entrySet()) {
+            infected += entry.getValue().infected;
+            deaths += entry.getValue().deaths;
+            recovered += entry.getValue().recovered;
+        }
+
+        return new CountryData("TOTAL", "TOTAL", infected, deaths, recovered);
+    }
+
     @Override
     public int compareTo(DayData other) {
         return this.date.compareTo(other.date);

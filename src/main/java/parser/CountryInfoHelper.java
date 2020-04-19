@@ -33,8 +33,6 @@ public class CountryInfoHelper {
             bf.write("CountryInfoHelper cache" + '\n');
 
             for (var entry : cachedResults.entrySet()) {
-
-
                 bf.write(entry.getKey() + '\n');
                 if (entry.getValue() == null) {
                     for (int i = 0; i < 3; i++) {
@@ -63,6 +61,47 @@ public class CountryInfoHelper {
     }
 
     public static Country GetCountryInfo(String countryName) {
+        countryName = countryName.toLowerCase();
+        countryName = countryName.replace(",", "");
+
+        if (countryName.equals("kyrgyz republic")) {
+            countryName = "kyrgyzstan";
+        } else if (countryName.equals("us")) {
+            countryName = "united states";
+        } else if (countryName.equals("mainland china") || countryName.equals("hong kong sar")) {
+            countryName = "china";
+        } else if (countryName.equals("tanzania, united republic of")) {
+            countryName = "tanzania";
+        } else if (countryName.equals("macau") || countryName.equals("macao sar")) {
+            countryName = "macao";
+        } else if (countryName.equals("cape verde")) {
+            countryName = "cabo verde";
+        } else if (countryName.equals("eritrea")) {
+            countryName = "eritrea";
+        } else if (countryName.equals("northern ireland") || countryName.equals("north ireland") || countryName.equals("uk")) {
+            countryName = "united kingdom";
+        } else if (countryName.equals("czech republic")) {
+            countryName = "czechia";
+        } else if (countryName.equals("viet nam")) {
+            countryName = "vietnam";
+        } else if (countryName.equals("republic of korea") || countryName.equals("korea, south")) {
+            countryName = "south korea";
+        } else if (countryName.equals("taipei and environs")) {
+            countryName = "taiwan";
+        } else if (countryName.equals("congo (kinshasa)")) {
+            countryName = "dr congo";
+        } else if (countryName.equals("congo (brazzaville)") || countryName.equals("republic of congo") || countryName.equals("republic of the congo")) {
+            countryName = "congo republic";
+        } else if (countryName.equals("cote d'ivoire")) {
+            countryName = "ivory coast";
+        } else if (countryName.equals("curacao")) {
+            countryName = "curaçao";
+        } else if (countryName.equals("east timor")) {
+            countryName = "timor-leste";
+        } else if (countryName.equals("reunion")) {
+            countryName = "réunion";
+        }
+
         if (cachedResults.containsKey(countryName)) {
             if (cachedResults.get(countryName) == null) {
                 return null;
@@ -88,6 +127,10 @@ public class CountryInfoHelper {
                 }
 
                 Country res = new Country(toponym.getCountryCode(), toponym.getCountryName(), toponym.getPopulation());
+                if (!res.name.toLowerCase().contains(countryName) && !countryName.contains(res.name.toLowerCase())) {
+                    continue;
+                }
+
                 cachedResults.put(countryName, res);
 
                 return res.Clone();

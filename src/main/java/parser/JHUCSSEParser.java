@@ -107,19 +107,7 @@ public class JHUCSSEParser extends Parser {
 
                 String[] line = null;
                 while ((line = csvReader.readNext()) != null) {
-                    if (line[countryColumn].equals("Mainland China")) {
-                        line[countryColumn] = "China";
-                    }
-
-                    if (line[countryColumn].equals("US")) {
-                        line[countryColumn] = "United States";
-                    }
-
                     Country curCountry = CountryInfoHelper.GetCountryInfo(line[countryColumn]);
-                    if (curCountry == null) {
-                        System.out.println("Fucked on " + line[countryColumn]);
-                        continue;
-                    }
 
                     if (line[confirmedColumn].equals("")) {
                         line[confirmedColumn] = "0";
@@ -134,6 +122,11 @@ public class JHUCSSEParser extends Parser {
                     int infected = Integer.parseInt(line[confirmedColumn]);
                     int deaths = Integer.parseInt(line[deathColumn]);
                     int recovered = Integer.parseInt(line[recoveredColumn]);
+
+                    if (curCountry == null) {
+                        curDay.AddCountry(new CountryData("Other", "Other", infected, deaths, recovered));
+                        continue;
+                    }
 
                     var countryData = new CountryData(curCountry.countryCode, curCountry.name, infected, deaths, recovered);
 

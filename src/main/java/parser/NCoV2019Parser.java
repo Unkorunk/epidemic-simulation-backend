@@ -6,7 +6,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.time.temporal.TemporalUnit;
 
 public class NCoV2019Parser extends Parser {
     public ParserData Parse() {
@@ -49,6 +48,7 @@ public class NCoV2019Parser extends Parser {
 
                 Country countryInfo = CountryInfoHelper.GetCountryInfo(name);
                 if (countryInfo == null) {
+                    todayData.AddCountry(new CountryData("Other", "Other", infected, deaths, recovered));
                     continue;
                 }
 
