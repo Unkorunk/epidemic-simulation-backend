@@ -8,6 +8,7 @@ import java.util.Random;
 
 import org.springframework.web.bind.annotation.*;
 import parser.*;
+import simulation.Simulation;
 
 @CrossOrigin(origins = {"http://104.248.59.99"}, maxAge = 3600)
 @RestController
@@ -63,6 +64,22 @@ public class UserAccountController {
     public ParserData getJHUCSSEParserData() {
         var parser = new JHUCSSEParser();
         return parser.Parse();
+    }
+
+    @RequestMapping("/predict")
+    public ParserData getPredict(@RequestParam(value = "duration") int duration,
+                                 @RequestParam(value = "rateInf", defaultValue = "24") int rateInf,
+                                 @RequestParam(value = "rateDea", defaultValue = "317") int rateDea,
+                                 @RequestParam(value = "rateRec", defaultValue = "532") int rateRec) {
+        var parseData = new NCoV2019Parser().Parse();
+        parseData.Merge(new JHUCSSEParser().Parse());
+
+        Simulation.rateInf = rateInf;
+        Simulation.rateDea = rateDea;
+        Simulation.rateRec = rateRec;
+        parseData.Merge(Simulation.Predict(parseData.data.get(parseData.data.size() - 1), duration));
+
+        return parseData;
     }
 
 
