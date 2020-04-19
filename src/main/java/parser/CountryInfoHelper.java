@@ -12,7 +12,7 @@ public class CountryInfoHelper {
     public static int calls = 0;
 
     public static void Init() {
-        WebService.setUserName("runolight");
+        WebService.setUserName("epidemicSim");
         WebService.setGeoNamesServer("api.geonames.org");
 
         cachedResults = new HashMap<String, Country>();

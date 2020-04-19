@@ -303,6 +303,10 @@ Armenia
 AM
 Armenia
 2951776
+Cura?ao
+CW
+Cura?ao
+159849
 Gabon
 GA
 Gabon
@@ -959,6 +963,10 @@ Burma
 MM
 Myanmar
 53708395
+St. Barth?lemy
+BL
+Saint Barth?lemy
+8450
 Bangladesh
 BD
 Bangladesh
