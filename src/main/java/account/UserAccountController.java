@@ -9,6 +9,7 @@ import java.util.Random;
 import org.springframework.web.bind.annotation.*;
 import parser.CountryData;
 import parser.DayData;
+import parser.NCoV2019Parser;
 import parser.ParserData;
 
 @RestController
@@ -52,6 +53,12 @@ public class UserAccountController {
 
 
         return parserData;
+    }
+
+    @RequestMapping("/today")
+    public ParserData getTodayParserData() {
+        var parser = new NCoV2019Parser();
+        return parser.Parse();
     }
 
 
