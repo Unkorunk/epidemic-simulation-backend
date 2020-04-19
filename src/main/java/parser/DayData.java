@@ -53,7 +53,7 @@ public class DayData implements Comparable<DayData> {
             recovered += entry.getValue().recovered;
         }
 
-        return new CountryData("TOTAL", "TOTAL", infected, deaths, recovered);
+        return new CountryData(new Country("TOTAL", "TOTAL", 7594119), infected, deaths, recovered);
     }
 
     @Override

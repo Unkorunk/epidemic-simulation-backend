@@ -19,6 +19,10 @@ gambia
 GM
 Gambia
 2280102
+saint kitts and nevis
+null
+null
+null
 san marino
 SM
 San Marino
@@ -27,6 +31,10 @@ estonia
 EE
 Estonia
 1320884
+the bahamas
+BS
+Bahamas
+385640
 dominican republic
 DO
 Dominican Republic
@@ -35,6 +43,10 @@ philippines
 PH
 Philippines
 106651922
+channel islands
+null
+null
+null
 cuba
 CU
 Cuba
@@ -75,6 +87,10 @@ aruba
 AW
 Aruba
 105845
+ azerbaijan
+AZ
+Azerbaijan
+9942334
 turkey
 TR
 Turkey
@@ -87,6 +103,10 @@ austria
 AT
 Austria
 8847037
+western sahara
+EH
+Western Sahara
+273008
 united states
 US
 United States
@@ -151,6 +171,10 @@ burkina faso
 BF
 Burkina Faso
 19751535
+guernsey
+GG
+Guernsey
+65228
 norway
 NO
 Norway
@@ -163,10 +187,18 @@ diamond princess
 null
 null
 null
+dominica
+DM
+Dominica
+71625
 bulgaria
 BG
 Bulgaria
 7000039
+west bank and gaza
+null
+null
+null
 south korea
 KR
 South Korea
@@ -175,6 +207,10 @@ bahrain
 BH
 Bahrain
 1569439
+tanzania united republic of
+null
+null
+null
 guatemala
 GT
 Guatemala
@@ -215,6 +251,10 @@ serbia
 RS
 Serbia
 6982084
+others
+null
+null
+null
 senegal
 SN
 Senegal
@@ -235,6 +275,10 @@ namibia
 NA
 Namibia
 2448255
+republic of moldova
+MD
+Moldova
+3545883
 cura?ao
 CW
 Cura?ao
@@ -255,11 +299,18 @@ french polynesia
 PF
 French Polynesia
 277679
-<<<<<<< HEAD
 honduras
 HN
 Honduras
 9587522
+taiwan*
+TW
+Taiwan
+3954929
+r?union
+RE
+R?union
+840000
 maldives
 MV
 Maldives
@@ -269,89 +320,6 @@ CL
 Chile
 18729160
 oman
-=======
-Lebanon
-LB
-Lebanon
-6848925
-Djibouti
-DJ
-Djibouti
-623891
-Brunei
-BN
-Brunei
-428962
-Azerbaijan
-AZ
-Azerbaijan
-9942334
-Cuba
-CU
-Cuba
-11167325
-Czech Republic
-CZ
-Czechia
-10625695
-Saint Lucia
-LC
-Saint Lucia
-181889
-Mauritania
-MR
-Mauritania
-4403319
-Guernsey
-GG
-Guernsey
-65228
-Mayotte
-YT
-Mayotte
-159042
-Israel
-IL
-Israel
-8883800
-San Marino
-SM
-San Marino
-4500
-Australia
-AU
-Australia
-24992369
-Myanmar
-MM
-Myanmar
-53708395
-Cameroon
-CM
-Cameroon
-25216237
-Gibraltar
-GI
-Gibraltar
-26544
-Cyprus
-CY
-Cyprus
-1140000
-St. Barth?lemy
-BL
-Saint Barth?lemy
-8450
-Malaysia
-MY
-Malaysia
-31528585
-Iceland
-IS
-Iceland
-353574
-Oman
->>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 OM
 Oman
 4829483
@@ -367,6 +335,10 @@ brazil
 BR
 Brazil
 209469333
+st. martin
+null
+null
+null
 guyana
 GY
 Guyana
@@ -375,6 +347,14 @@ germany
 DE
 Germany
 82927922
+korea south
+null
+null
+null
+bahamas the
+null
+null
+null
 india
 IN
 India
@@ -399,6 +379,10 @@ sri lanka
 LK
 Sri Lanka
 21670000
+jersey
+JE
+Jersey
+90812
 belize
 BZ
 Belize
@@ -459,6 +443,10 @@ czechia
 CZ
 Czechia
 10625695
+congo republic
+CG
+Congo Republic
+5244363
 ireland
 IE
 Ireland
@@ -471,6 +459,14 @@ poland
 PL
 Poland
 37978548
+eswatini
+SZ
+Eswatini
+1136191
+gambia the
+null
+null
+null
 united arab emirates
 AE
 United Arab Emirates
@@ -511,6 +507,10 @@ madagascar
 MG
 Madagascar
 22005222
+cruise ship
+null
+null
+null
 iran
 IR
 Iran
@@ -527,15 +527,26 @@ falkland islands
 FK
 Falkland Islands
 2638
+the gambia
+GM
+Gambia
+2280102
 indonesia
 ID
 Indonesia
 267663435
-<<<<<<< HEAD
 nicaragua
 NI
 Nicaragua
 6465513
+faroe islands
+FO
+Faroe Islands
+50000
+puerto rico
+PR
+Puerto Rico
+3474182
 gibraltar
 GI
 Gibraltar
@@ -577,33 +588,6 @@ MZ
 Mozambique
 29495962
 portugal
-=======
-Dominica
-DM
-Dominica
-71625
-Curaçao
-CW
-Curaçao
-159849
-Benin
-BJ
-Benin
-11485048
-Angola
-AO
-Angola
-30809762
-Sudan
-SD
-Sudan
-41801533
-East Timor
-TL
-Timor-Leste
-1267972
-Portugal
->>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 PT
 Portugal
 10281762
@@ -627,6 +611,10 @@ panama
 PA
 Panama
 4176873
+holy see
+null
+null
+null
 luxembourg
 LU
 Luxembourg
@@ -639,6 +627,10 @@ mongolia
 MN
 Mongolia
 3170208
+occupied palestinian territory
+null
+null
+null
 italy
 IT
 Italy
@@ -647,6 +639,10 @@ finland
 FI
 Finland
 5518050
+bosnia and herzegovina
+BA
+Bosnia and Herzegovina
+3323929
 nigeria
 NG
 Nigeria
@@ -687,7 +683,6 @@ isle of man
 IM
 Isle of Man
 84077
-<<<<<<< HEAD
 mexico
 MX
 Mexico
@@ -697,57 +692,6 @@ TN
 Tunisia
 11565204
 bahamas
-=======
-Ukraine
-UA
-Ukraine
-44622516
-Tanzania
-TZ
-Tanzania
-56318348
-Ghana
-GH
-Ghana
-29767108
-Cura?ao
-CW
-Cura?ao
-159849
-Holy See
-VA
-Vatican City
-921
-Congo (Brazzaville)
-CG
-Congo Republic
-5244363
-Anguilla
-AI
-Anguilla
-13254
-India
-IN
-India
-1352617328
-Canada
-CA
-Canada
-37058856
-Maldives
-MV
-Maldives
-515696
-Turkey
-TR
-Turkey
-82319724
-Belgium
-BE
-Belgium
-11422068
-The Bahamas
->>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 BS
 Bahamas
 385640
@@ -787,10 +731,22 @@ cabo verde
 CV
 Cabo Verde
 543767
+martinique
+MQ
+Martinique
+432900
 macao
 MO
 Macao
 520400
+kosovo
+XK
+Kosovo
+1845300
+mayotte
+YT
+Mayotte
+159042
 georgia
 GE
 Georgia
@@ -819,6 +775,10 @@ burundi
 BI
 Burundi
 11175378
+iran (islamic republic of)
+IR
+Iran
+81800269
 slovakia
 SK
 Slovakia
@@ -843,6 +803,18 @@ netherlands
 NL
 Netherlands
 17231017
+sao tome and principe
+null
+null
+null
+guam
+GU
+Guam
+165768
+russian federation
+RU
+Russia
+144478050
 eritrea
 null
 null
@@ -851,6 +823,10 @@ croatia
 HR
 Croatia
 4089400
+republic of ireland
+IE
+Ireland
+4853506
 nepal
 NP
 Nepal
@@ -863,14 +839,30 @@ bermuda
 BM
 Bermuda
 63968
+saint martin
+MF
+Saint Martin
+37264
 suriname
 SR
 Suriname
 575991
+guadeloupe
+GP
+Guadeloupe
+443000
 central african republic
 CF
 Central African Republic
 4666377
+french guiana
+GF
+French Guiana
+195506
+burma
+null
+null
+null
 romania
 RO
 Romania
@@ -899,6 +891,10 @@ sint maarten
 SX
 Sint Maarten
 40654
+saint barthelemy
+null
+null
+null
 egypt
 EG
 Egypt
@@ -935,59 +931,15 @@ qatar
 QA
 Qatar
 2781677
+ms zaandam
+null
+null
+null
 saint vincent and the grenadines
 null
 null
 null
-<<<<<<< HEAD
 barbados
-=======
-France
-FR
-France
-66987244
-Serbia
-RS
-Serbia
-6982084
-Lithuania
-LT
-Lithuania
-2789533
-Bosnia and Herzegovina
-BA
-Bosnia and Herzegovina
-3323929
-Republic of Ireland
-IE
-Ireland
-4853506
-Niger
-NE
-Niger
-22442948
-Rwanda
-RW
-Rwanda
-12301939
-St. Barthélemy
-BL
-Saint Barthélemy
-8450
-Burma
-MM
-Myanmar
-53708395
-St. Barth?lemy
-BL
-Saint Barth?lemy
-8450
-Bangladesh
-BD
-Bangladesh
-161356039
-Barbados
->>>>>>> bd6355bfdf2d5c6c502ccf5aae18bc072f00fcf8
 BB
 Barbados
 286641

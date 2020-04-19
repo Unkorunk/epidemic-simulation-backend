@@ -25,29 +25,29 @@ public class UserAccountController {
     public ParserData getRandomParserData() {
         ParserData parserData = new ParserData();
 
-        String[] countries = new String[] { "Russia", "USA", "China", "Canada", "Democratic Republic of the Congo" };
-
-        parserData.source = "Random Source";
-        int count_days = 3 + random.nextInt(10);
-
-        parserData.data = new ArrayList<DayData>();
-        for (int i = 0; i < count_days; i++) {
-            parserData.data.add(new DayData());
-            parserData.data.get(i).date = LocalDate.now().plusDays(i);
-            parserData.data.get(i).countries = new HashMap<>();
-            int count_countries = 2 + random.nextInt(2);
-            for (int j = 0; j < count_countries; j++)  {
-                int countryId = random.nextInt(countries.length);
-                CountryData countryData = new CountryData(Integer.toString(countryId),
-                        countries[countryId],
-                        random.nextInt(10000),
-                        random.nextInt(10000),
-                        random.nextInt(10000));
-
-
-                parserData.data.get(i).countries.put(countryData.countryCode, countryData);
-            }
-        }
+//        String[] countries = new String[] { "Russia", "USA", "China", "Canada", "Democratic Republic of the Congo" };
+//
+//        parserData.source = "Random Source";
+//        int count_days = 3 + random.nextInt(10);
+//
+//        parserData.data = new ArrayList<DayData>();
+//        for (int i = 0; i < count_days; i++) {
+//            parserData.data.add(new DayData());
+//            parserData.data.get(i).date = LocalDate.now().plusDays(i);
+//            parserData.data.get(i).countries = new HashMap<>();
+//            int count_countries = 2 + random.nextInt(2);
+//            for (int j = 0; j < count_countries; j++)  {
+//                int countryId = random.nextInt(countries.length);
+//                CountryData countryData = new CountryData(Integer.toString(countryId),
+//                        countries[countryId],
+//                        random.nextInt(10000),
+//                        random.nextInt(10000),
+//                        random.nextInt(10000));
+//
+//
+//                parserData.data.get(i).countries.put(countryData.countryCode, countryData);
+//            }
+//        }
 
 
         return parserData;

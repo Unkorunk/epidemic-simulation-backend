@@ -40,8 +40,6 @@ public class EpidemicSimulation {
 
         NCoV2019Parser parser1 = new NCoV2019Parser();
         resList.add(parser1.Parse());
-        //System.out.println(resList.get(0).data.get(0).GetTotal());
-        //System.out.println(resList.get(0).data.get(0));
 
         JHUCSSEParser parser2 = new JHUCSSEParser();
         resList.add(parser2.Parse());

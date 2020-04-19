@@ -124,11 +124,11 @@ public class JHUCSSEParser extends Parser {
                     int recovered = Integer.parseInt(line[recoveredColumn]);
 
                     if (curCountry == null) {
-                        curDay.AddCountry(new CountryData("Other", "Other", infected, deaths, recovered));
+                        curDay.AddCountry(new CountryData(new Country("Other", "Other", -1), infected, deaths, recovered));
                         continue;
                     }
 
-                    var countryData = new CountryData(curCountry.countryCode, curCountry.name, infected, deaths, recovered);
+                    var countryData = new CountryData(curCountry, infected, deaths, recovered);
 
                     curDay.AddCountry(countryData);
                 }

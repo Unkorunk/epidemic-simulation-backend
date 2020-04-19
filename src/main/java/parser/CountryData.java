@@ -1,12 +1,13 @@
 package parser;
 
 public class CountryData {
-    public CountryData(String code, String countryName, int infected, int deaths, int recovered) {
-        this.countryCode = code;
-        this.countryName = countryName;
+    public CountryData(Country country, int infected, int deaths, int recovered) {
+        this.countryCode = country.countryCode;
+        this.countryName = country.name;
         this.infected = infected;
         this.deaths = deaths;
         this.recovered = recovered;
+        this.population = country.population;
     }
 
     public String countryCode;
@@ -16,6 +17,8 @@ public class CountryData {
     public int infected;
     public int deaths;
     public int recovered;
+
+    public int population;
 
     public void Merge(CountryData cd) throws Exception {
         if (!countryCode.equals(cd.countryCode)) {
@@ -35,6 +38,8 @@ public class CountryData {
         this.infected += cd.infected;
         this.deaths += cd.deaths;
         this.recovered += cd.recovered;
+
+        this.population += cd.population;
     }
 
     public String toString() {
