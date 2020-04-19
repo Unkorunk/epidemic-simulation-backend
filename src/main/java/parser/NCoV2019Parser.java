@@ -6,6 +6,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.time.temporal.TemporalUnit;
 
 public class NCoV2019Parser extends Parser {
     public ParserData Parse() {
@@ -13,6 +14,7 @@ public class NCoV2019Parser extends Parser {
         var res = new ParserData();
         res.source = "ncov2019.live";
         var todayData = new DayData();
+        todayData.date.minusDays(3);
 
         Document doc = null;
 
@@ -51,11 +53,13 @@ public class NCoV2019Parser extends Parser {
                 }
 
                 var cData = new CountryData(countryInfo.countryCode, countryInfo.name, infected, deaths, recovered);
-                todayData.countries.put(countryInfo.countryCode, cData);
+                todayData.AddCountry(cData);
             }
         }
 
         res.data.add(todayData);
+
+        CountryInfoHelper.SaveCache();
 
         return res;
     }

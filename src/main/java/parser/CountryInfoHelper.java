@@ -12,7 +12,7 @@ public class CountryInfoHelper {
     public static int calls = 0;
 
     public static void Init() {
-        WebService.setUserName("runolight");
+        WebService.setUserName("epidemicSim");
         WebService.setGeoNamesServer("api.geonames.org");
 
         cachedResults = new HashMap<String, Country>();
@@ -33,7 +33,17 @@ public class CountryInfoHelper {
             bf.write("CountryInfoHelper cache" + '\n');
 
             for (var entry : cachedResults.entrySet()) {
+
+
                 bf.write(entry.getKey() + '\n');
+                if (entry.getValue() == null) {
+                    for (int i = 0; i < 3; i++) {
+                        bf.write("null\n");
+                    }
+
+                    continue;
+                }
+
                 bf.write(entry.getValue().countryCode + '\n');
                 bf.write(entry.getValue().name + '\n');
                 bf.write(Integer.toString(entry.getValue().population) + '\n');
@@ -54,6 +64,10 @@ public class CountryInfoHelper {
 
     public static Country GetCountryInfo(String countryName) {
         if (cachedResults.containsKey(countryName)) {
+            if (cachedResults.get(countryName) == null) {
+                return null;
+            }
+
             return cachedResults.get(countryName).Clone();
         }
 
@@ -83,14 +97,21 @@ public class CountryInfoHelper {
             e.printStackTrace();
         }
 
+        cachedResults.put(countryName, null);
+
         return null;
     }
 
     private static void LoadCache() {
+        File txt = new File("CountryInfoHelperCache.txt");
+        if (!txt.exists()) {
+            return;
+        }
+
         System.out.println("Load started");
         BufferedReader br = null;
         try {
-            FileReader fr = new FileReader("CountryInfoHelperCache.txt");
+            FileReader fr = new FileReader(txt);
             br = new BufferedReader(fr);
 
             br.readLine();
@@ -109,8 +130,14 @@ public class CountryInfoHelper {
                 } else if (countryName == null) {
                     countryName = curStr;
                 } else if (population == null) {
-                    population = Integer.parseInt(curStr);
-                    cachedResults.put(curKey, new Country(countryCode, countryName, population));
+
+                    if (curStr.equals("null")) {
+                        cachedResults.put(curKey, null);
+                    } else {
+                        population = Integer.parseInt(curStr);
+                        cachedResults.put(curKey, new Country(countryCode, countryName, population));
+                    }
+
                     curKey = null;
                     countryCode = null;
                     countryName = null;
