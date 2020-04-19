@@ -39,6 +39,10 @@ dominican republic
 DO
 Dominican Republic
 10627165
+st. barth?lemy
+null
+null
+null
 philippines
 PH
 Philippines
@@ -119,6 +123,10 @@ monaco
 MC
 Monaco
 32965
+r?union
+RE
+R?union
+840000
 hungary
 HU
 Hungary
@@ -871,6 +879,10 @@ angola
 AO
 Angola
 30809762
+cura?ao
+CW
+Cura?ao
+159849
 new zealand
 NZ
 New Zealand
