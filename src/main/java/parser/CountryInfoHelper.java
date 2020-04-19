@@ -70,7 +70,7 @@ public class CountryInfoHelper {
             countryName = "united states";
         } else if (countryName.equals("mainland china") || countryName.equals("hong kong sar")) {
             countryName = "china";
-        } else if (countryName.equals("tanzania, united republic of")) {
+        } else if (countryName.equals("tanzania united republic of")) {
             countryName = "tanzania";
         } else if (countryName.equals("macau") || countryName.equals("macao sar")) {
             countryName = "macao";
