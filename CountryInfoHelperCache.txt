@@ -279,9 +279,9 @@ Cyprus
 CY
 Cyprus
 1140000
-St. Barth?lemy
+St. Barthélemy
 BL
-Saint Barth?lemy
+Saint Barthélemy
 8450
 Malaysia
 MY
@@ -603,9 +603,9 @@ Ghana
 GH
 Ghana
 29767108
-Cura?ao
+Curaçao
 CW
-Cura?ao
+Curaçao
 159849
 Holy See
 VA
