@@ -1,1025 +1,949 @@
 CountryInfoHelper cache
-Papua New Guinea
-PG
-Papua New Guinea
-8606316
-Cambodia
-KH
-Cambodia
-16249798
-Kazakhstan
-KZ
-Kazakhstan
-18276499
-Paraguay
-PY
-Paraguay
-6956071
-Syria
-SY
-Syria
-16906283
-Bahamas
-BS
-Bahamas
-385640
-Montserrat
-MS
-Montserrat
-9341
-Mali
-ML
-Mali
-19077690
-Panama
-PA
-Panama
-4176873
-Guadeloupe
-GP
-Guadeloupe
-443000
-Laos
-LA
-Laos
-7061507
-Tanzania, United Republic of
-null
-null
-null
-Argentina
-AR
-Argentina
-44494502
-Falkland Islands
-FK
-Falkland Islands
-2638
-Seychelles
-SC
-Seychelles
-96762
-Zambia
-ZM
-Zambia
-17351822
-Belize
-BZ
-Belize
-383071
-Bahrain
-BH
-Bahrain
-1569439
-Kyrgyz Republic
-KG
-Kyrgyzstan
-6315800
-Guinea-Bissau
-GW
-Guinea-Bissau
-1874309
-Saint Barthelemy
-BL
-Saint Barth?lemy
-8450
-Namibia
-NA
-Namibia
-2448255
-Finland
-FI
-Finland
-5518050
-Faroe Islands
-FO
-Faroe Islands
-50000
-North Macedonia
-MK
-North Macedonia
-2082958
-Georgia
-GE
-Georgia
-3731000
-Saint Kitts and Nevis
-KN
-St Kitts and Nevis
-52441
-Yemen
-YE
-Yemen
-28498687
-Eritrea
-null
-null
-null
-Puerto Rico
-PR
-Puerto Rico
-3474182
-Viet Nam
-VN
-Vietnam
-95540395
-Cruise Ship
-null
-null
-null
-Madagascar
-MG
-Madagascar
-22005222
-Aruba
-AW
-Aruba
-105845
-Ivory Coast
-CI
-Ivory Coast
-25069229
-Libya
-LY
-Libya
-6678567
-Bosnia
-BA
-Bosnia and Herzegovina
-3323929
-Sweden
-SE
-Sweden
-10183175
-Saint Martin
-MF
-Saint Martin
-37264
-Taiwan*
-TW
-Taiwan
-3954929
-Malawi
-MW
-Malawi
-17563749
-Andorra
-AD
-Andorra
-77006
-Liechtenstein
-LI
-Liechtenstein
-37910
-Poland
-PL
-Poland
-37978548
-Bulgaria
-BG
-Bulgaria
-7000039
-Jordan
-JO
-Jordan
-9956011
-Tunisia
-TN
-Tunisia
-11565204
-Republic of Korea
-KR
-South Korea
-51635256
-Gambia, The
-null
-null
-null
-Channel Islands
-GG
-Guernsey
-158000
-United Arab Emirates
-AE
-United Arab Emirates
-9630959
-Kenya
-KE
-Kenya
-51393010
-French Polynesia
-PF
-French Polynesia
-277679
-Lebanon
-LB
-Lebanon
-6848925
-Djibouti
-DJ
-Djibouti
-623891
-Brunei
-BN
-Brunei
-428962
-Azerbaijan
-AZ
-Azerbaijan
-9942334
-Cuba
-CU
-Cuba
-11167325
-Czech Republic
-CZ
-Czechia
-10625695
-Saint Lucia
-LC
-Saint Lucia
-181889
-Mauritania
-MR
-Mauritania
-4403319
-Guernsey
-GG
-Guernsey
-65228
-Mayotte
-YT
-Mayotte
-159042
-Israel
-IL
-Israel
-8883800
-San Marino
-SM
-San Marino
-4500
-Australia
-AU
-Australia
-24992369
-Myanmar
-MM
-Myanmar
-53708395
-Cameroon
-CM
-Cameroon
-25216237
-Gibraltar
-GI
-Gibraltar
-26544
-Cyprus
-CY
-Cyprus
-1140000
-St. Barth?lemy
-BL
-Saint Barth?lemy
-8450
-Malaysia
-MY
-Malaysia
-31528585
-Iceland
-IS
-Iceland
-353574
-Oman
-OM
-Oman
-4829483
-MS Zaandam
-null
-null
-null
-Armenia
-AM
-Armenia
-2951776
-Cura?ao
-CW
-Cura?ao
-159849
-Gabon
-GA
-Gabon
-2119275
-Luxembourg
-LU
-Luxembourg
-607728
-UK
-RU
-Russia
-2342
-Brazil
-BR
-Brazil
-209469333
-Turks and Caicos Islands
-TC
-Turks and Caicos Islands
-37665
-Algeria
-DZ
-Algeria
-42228429
-Slovenia
-SI
-Slovenia
-2067372
-Jersey
-JE
-Jersey
-90812
-Cabo Verde
-CV
-Cabo Verde
-543767
-Diamond Princess
-null
-null
-null
-Republic of the Congo
-CG
-Congo Republic
-5244363
-Antigua and Barbuda
-AG
-Antigua and Barbuda
-96286
-Ecuador
-EC
-Ecuador
-17084357
-Colombia
-CO
-Colombia
-49648685
-Iran (Islamic Republic of)
-IR
-Iran
-81800269
-Moldova
-MD
-Moldova
-3545883
-Eswatini
-SZ
-Eswatini
-1136191
-Italy
-IT
-Italy
-60431283
-Honduras
-HN
-Honduras
-9587522
-Haiti
-HT
-Haiti
-11123176
-Afghanistan
-AF
-Afghanistan
-37172386
-Burundi
-BI
-Burundi
-11175378
-Russian Federation
-RU
-Russia
-144478050
-Singapore
-SG
-Singapore
-3547809
-French Guiana
-GF
-French Guiana
-195506
- Azerbaijan
-AZ
-Azerbaijan
-9942334
-Vatican City
-VA
-Vatican City
-829
-Russia
-JM
-Jamaica
-872
-Netherlands
-NL
-Netherlands
-17231017
-China
-CN
-China
-1392730000
-Martinique
-MQ
-Martinique
-432900
-Sint Maarten
-SX
-Sint Maarten
-40654
-Kyrgyzstan
-KG
-Kyrgyzstan
-6315800
-Reunion
-RE
-R?union
-840000
-Others
-null
-null
-null
-Bhutan
-BT
-Bhutan
-754394
-Romania
-RO
-Romania
-19473936
-Togo
-TG
-Togo
-7889094
-Philippines
-PH
-Philippines
-106651922
-Cote d'Ivoire
-CI
-Ivory Coast
-25069229
-Uzbekistan
-UZ
-Uzbekistan
-32955400
-Congo (Kinshasa)
-CD
-DR Congo
-84068091
-British Virgin Islands
-VG
-British Virgin Islands
-29802
-Bahamas, The
-null
-null
-null
-Zimbabwe
-ZW
-Zimbabwe
-14439018
-Republic of Moldova
-MD
-Moldova
-3545883
-Montenegro
-ME
-Montenegro
-622345
-Indonesia
-ID
-Indonesia
-267663435
-Dominica
-DM
-Dominica
-71625
-Curaçao
-CW
-Curaçao
-159849
-Benin
-BJ
-Benin
-11485048
-Angola
-AO
-Angola
-30809762
-Sudan
-SD
-Sudan
-41801533
-East Timor
-TL
-Timor-Leste
-1267972
-Portugal
-PT
-Portugal
-10281762
-New Caledonia
-NC
-New Caledonia
-284060
-Grenada
-GD
-Grenada
-111454
-Greece
-GR
-Greece
-10727668
-Cayman Islands
-KY
-Cayman Islands
-64174
-Latvia
-LV
-Latvia
-1926542
-Mongolia
-MN
-Mongolia
-3170208
-Iran
-IR
-Iran
-81800269
-Morocco
-MA
-Morocco
-36029138
-Guatemala
-GT
-Guatemala
-17247807
-Guyana
-GY
-Guyana
-779004
-North Ireland
-null
-null
-null
-Hong Kong SAR
-null
-null
-null
-Iraq
-IQ
-Iraq
-38433600
-Chile
-CL
-Chile
-18729160
-Nepal
-NP
-Nepal
-28087871
-The Gambia
-GM
-Gambia
-2280102
-Isle of Man
-IM
-Isle of Man
-84077
-Ukraine
-UA
-Ukraine
-44622516
-Tanzania
-TZ
-Tanzania
-56318348
-Ghana
-GH
-Ghana
-29767108
-Cura?ao
-CW
-Cura?ao
-159849
-Holy See
-VA
-Vatican City
-921
-Congo (Brazzaville)
-CG
-Congo Republic
-5244363
-Anguilla
-AI
-Anguilla
-13254
-India
-IN
-India
-1352617328
-Canada
-CA
-Canada
-37058856
-Maldives
-MV
-Maldives
-515696
-Turkey
-TR
-Turkey
-82319724
-Belgium
-BE
-Belgium
-11422068
-The Bahamas
-BS
-Bahamas
-385640
-Taiwan
-TW
-Taiwan
-22894384
-South Africa
-ZA
-South Africa
-57779622
-Trinidad and Tobago
-TT
-Trinidad and Tobago
-1389858
-Bermuda
-BM
-Bermuda
-63968
-Central African Republic
-CF
-Central African Republic
-4666377
-Jamaica
-JM
-Jamaica
-2950210
-Peru
-PE
-Peru
-31989256
-Germany
-DE
-Germany
-82927922
-Fiji
-FJ
-Fiji
-883483
-Hong Kong
-HK
-Hong Kong
-7012738
-United States
-US
-United States
-327167434
-Guinea
-GN
-Guinea
-12414318
-Somalia
-SO
-Somalia
-15008154
-Chad
-TD
-Chad
-15477751
-Sao Tome and Principe
-ST
-S?o Tom? and Pr?ncipe
-197700
-Thailand
-TH
-Thailand
-69428524
-Equatorial Guinea
-GQ
-Equatorial Guinea
-1308974
-Costa Rica
-CR
-Costa Rica
-4999441
-St. Martin
-GG
-Guernsey
-6267
-Vietnam
-VN
-Vietnam
-95540395
-West Bank and Gaza
-null
-null
-null
-Kuwait
-KW
-Kuwait
-4137309
-Nigeria
-NG
-Nigeria
-195874740
-Croatia
-HR
-Croatia
-4089400
-Macao SAR
-null
-null
-null
-Uruguay
-UY
-Uruguay
-3449299
-Sri Lanka
-LK
-Sri Lanka
-21670000
-Timor-Leste
-TL
-Timor-Leste
-1267972
-United Kingdom
-GB
-United Kingdom
-66488991
-Switzerland
-CH
-Switzerland
-8516543
-Spain
-ES
-Spain
-46723749
-Palestine
-US
-United States
-18288
-Venezuela
-VE
-Venezuela
-28870195
-Liberia
-LR
-Liberia
-4818977
-Burkina Faso
-BF
-Burkina Faso
-19751535
-Estonia
-EE
-Estonia
-1320884
-Taipei and environs
-null
-null
-null
-Austria
-AT
-Austria
-8847037
-South Korea
-KR
-South Korea
-51635256
-Mozambique
-MZ
-Mozambique
-29495962
-El Salvador
-SV
-El Salvador
-6420744
-Monaco
-MC
-Monaco
-32965
-Guam
-GU
-Guam
-165768
-Western Sahara
-EH
-Western Sahara
-273008
-Hungary
-HU
-Hungary
-9768785
-South Sudan
-SS
-South Sudan
-8260490
-Japan
-JP
-Japan
-126529100
-Belarus
+belarus
 BY
 Belarus
 9485386
-Curacao
-CW
-Cura?ao
-159849
-Mauritius
-MU
-Mauritius
-1265303
-Albania
-AL
-Albania
-2866376
-New Zealand
-NZ
-New Zealand
-4885500
-St. Kitts and Nevis
-KN
-St Kitts and Nevis
-52441
-Senegal
-SN
-Senegal
-15854360
-DR Congo
-CD
-DR Congo
-84068091
-Ethiopia
-ET
-Ethiopia
-109224559
-Korea, South
-KR
-South Korea
-51635256
-Czechia
-CZ
-Czechia
-10625695
-Egypt
-EG
-Egypt
-98423595
-Macau
-MO
-Macao
-520400
-Sierra Leone
-SL
-Sierra Leone
-7650154
-Bolivia
-BO
-Bolivia
-11353142
-Malta
-MT
-Malta
-483530
-Saudi Arabia
-SA
-Saudi Arabia
-33699947
-Cape Verde
-CV
-Cabo Verde
-543767
-Pakistan
-PK
-Pakistan
-212215030
-Kosovo
-XK
-Kosovo
-1845300
-Gambia
+japan
+JP
+Japan
+126529100
+south africa
+ZA
+South Africa
+57779622
+guinea
+GN
+Guinea
+12414318
+gambia
 GM
 Gambia
 2280102
-Ireland
-GB
-United Kingdom
-6570000
-Qatar
-QA
-Qatar
-2781677
-Slovakia
-SK
-Slovakia
-5447011
-occupied Palestinian territory
+saint kitts and nevis
 null
 null
 null
-France
-FR
-France
-66987244
-Serbia
-RS
-Serbia
-6982084
-Lithuania
-LT
-Lithuania
-2789533
-Bosnia and Herzegovina
-BA
-Bosnia and Herzegovina
-3323929
-Republic of Ireland
-IE
-Ireland
-4853506
-Niger
-NE
-Niger
-22442948
-Rwanda
-RW
-Rwanda
-12301939
-St. Barthélemy
-BL
-Saint Barthélemy
-8450
-Burma
-MM
-Myanmar
-53708395
-St. Barth?lemy
-BL
-Saint Barth?lemy
-8450
-Bangladesh
-BD
-Bangladesh
-161356039
-Barbados
-BB
-Barbados
-286641
-Nicaragua
-NI
-Nicaragua
-6465513
-Norway
-NO
-Norway
-5314336
-Botswana
-BW
-Botswana
-2254126
-Saint Vincent and the Grenadines
-VC
-St Vincent and Grenadines
-110211
-Denmark
-DK
-Denmark
-5797446
-Dominican Republic
+san marino
+SM
+San Marino
+4500
+estonia
+EE
+Estonia
+1320884
+the bahamas
+BS
+Bahamas
+385640
+dominican republic
 DO
 Dominican Republic
 10627165
-Mexico
+philippines
+PH
+Philippines
+106651922
+channel islands
+null
+null
+null
+cuba
+CU
+Cuba
+11167325
+mauritius
+MU
+Mauritius
+1265303
+mali
+ML
+Mali
+19077690
+switzerland
+CH
+Switzerland
+8516543
+hong kong
+HK
+Hong Kong
+7012738
+armenia
+AM
+Armenia
+2951776
+vietnam
+VN
+Vietnam
+95540395
+australia
+AU
+Australia
+24992369
+laos
+LA
+Laos
+7061507
+aruba
+AW
+Aruba
+105845
+ azerbaijan
+AZ
+Azerbaijan
+9942334
+turkey
+TR
+Turkey
+82319724
+ukraine
+UA
+Ukraine
+44622516
+austria
+AT
+Austria
+8847037
+western sahara
+EH
+Western Sahara
+273008
+united states
+US
+United States
+327167434
+cambodia
+KH
+Cambodia
+16249798
+monaco
+MC
+Monaco
+32965
+hungary
+HU
+Hungary
+9768785
+kenya
+KE
+Kenya
+51393010
+greenland
+GL
+Greenland
+56025
+greece
+GR
+Greece
+10727668
+paraguay
+PY
+Paraguay
+6956071
+cyprus
+CY
+Cyprus
+1140000
+colombia
+CO
+Colombia
+49648685
+st. barth?lemy
+null
+null
+null
+azerbaijan
+AZ
+Azerbaijan
+9942334
+syria
+SY
+Syria
+16906283
+rwanda
+RW
+Rwanda
+12301939
+libya
+LY
+Libya
+6678567
+burkina faso
+BF
+Burkina Faso
+19751535
+guernsey
+GG
+Guernsey
+65228
+norway
+NO
+Norway
+5314336
+afghanistan
+AF
+Afghanistan
+37172386
+diamond princess
+null
+null
+null
+dominica
+DM
+Dominica
+71625
+bulgaria
+BG
+Bulgaria
+7000039
+west bank and gaza
+null
+null
+null
+south korea
+KR
+South Korea
+51635256
+bahrain
+BH
+Bahrain
+1569439
+tanzania united republic of
+null
+null
+null
+guatemala
+GT
+Guatemala
+17247807
+ghana
+GH
+Ghana
+29767108
+somalia
+SO
+Somalia
+15008154
+st. kitts and nevis
+null
+null
+null
+jamaica
+JM
+Jamaica
+2950210
+togo
+TG
+Togo
+7889094
+liechtenstein
+LI
+Liechtenstein
+37910
+thailand
+TH
+Thailand
+69428524
+france
+FR
+France
+66987244
+serbia
+RS
+Serbia
+6982084
+others
+null
+null
+null
+senegal
+SN
+Senegal
+15854360
+montserrat
+MS
+Montserrat
+9341
+turks and caicos islands
+TC
+Turks and Caicos Islands
+37665
+zambia
+ZM
+Zambia
+17351822
+namibia
+NA
+Namibia
+2448255
+republic of moldova
+MD
+Moldova
+3545883
+cura?ao
+CW
+Cura?ao
+159849
+taiwan
+TW
+Taiwan
+22894384
+palestine
+PS
+Palestine
+4569087
+canada
+CA
+Canada
+37058856
+french polynesia
+PF
+French Polynesia
+277679
+honduras
+HN
+Honduras
+9587522
+taiwan*
+TW
+Taiwan
+3954929
+r?union
+RE
+R?union
+840000
+maldives
+MV
+Maldives
+515696
+chile
+CL
+Chile
+18729160
+oman
+OM
+Oman
+4829483
+timor-leste
+TL
+Timor-Leste
+1267972
+vatican city
+VA
+Vatican City
+829
+brazil
+BR
+Brazil
+209469333
+st. martin
+null
+null
+null
+guyana
+GY
+Guyana
+779004
+germany
+DE
+Germany
+82927922
+korea south
+null
+null
+null
+bahamas the
+null
+null
+null
+india
+IN
+India
+1352617328
+peru
+PE
+Peru
+31989256
+malaysia
+MY
+Malaysia
+31528585
+trinidad and tobago
+TT
+Trinidad and Tobago
+1389858
+denmark
+DK
+Denmark
+5797446
+sri lanka
+LK
+Sri Lanka
+21670000
+jersey
+JE
+Jersey
+90812
+belize
+BZ
+Belize
+383071
+kuwait
+KW
+Kuwait
+4137309
+slovenia
+SI
+Slovenia
+2067372
+haiti
+HT
+Haiti
+11123176
+zimbabwe
+ZW
+Zimbabwe
+14439018
+el salvador
+SV
+El Salvador
+6420744
+saint lucia
+LC
+Saint Lucia
+181889
+ivory coast
+CI
+Ivory Coast
+25069229
+china
+CN
+China
+1392730000
+bolivia
+BO
+Bolivia
+11353142
+brunei
+BN
+Brunei
+428962
+antigua and barbuda
+AG
+Antigua and Barbuda
+96286
+israel
+IL
+Israel
+8883800
+bangladesh
+BD
+Bangladesh
+161356039
+czechia
+CZ
+Czechia
+10625695
+congo republic
+CG
+Congo Republic
+5244363
+ireland
+IE
+Ireland
+4853506
+albania
+AL
+Albania
+2866376
+poland
+PL
+Poland
+37978548
+eswatini
+SZ
+Eswatini
+1136191
+gambia the
+null
+null
+null
+united arab emirates
+AE
+United Arab Emirates
+9630959
+botswana
+BW
+Botswana
+2254126
+bosnia
+BA
+Bosnia and Herzegovina
+3323929
+andorra
+AD
+Andorra
+77006
+venezuela
+VE
+Venezuela
+28870195
+moldova
+MD
+Moldova
+3545883
+malawi
+MW
+Malawi
+17563749
+russia
+RU
+Russia
+144478050
+sweden
+SE
+Sweden
+10183175
+madagascar
+MG
+Madagascar
+22005222
+cruise ship
+null
+null
+null
+iran
+IR
+Iran
+81800269
+iraq
+IQ
+Iraq
+38433600
+seychelles
+SC
+Seychelles
+96762
+falkland islands
+FK
+Falkland Islands
+2638
+the gambia
+GM
+Gambia
+2280102
+indonesia
+ID
+Indonesia
+267663435
+nicaragua
+NI
+Nicaragua
+6465513
+faroe islands
+FO
+Faroe Islands
+50000
+puerto rico
+PR
+Puerto Rico
+3474182
+gibraltar
+GI
+Gibraltar
+26544
+ethiopia
+ET
+Ethiopia
+109224559
+equatorial guinea
+GQ
+Equatorial Guinea
+1308974
+ecuador
+EC
+Ecuador
+17084357
+guinea-bissau
+GW
+Guinea-Bissau
+1874309
+saudi arabia
+SA
+Saudi Arabia
+33699947
+spain
+ES
+Spain
+46723749
+mauritania
+MR
+Mauritania
+4403319
+algeria
+DZ
+Algeria
+42228429
+mozambique
+MZ
+Mozambique
+29495962
+portugal
+PT
+Portugal
+10281762
+cameroon
+CM
+Cameroon
+25216237
+lithuania
+LT
+Lithuania
+2789533
+costa rica
+CR
+Costa Rica
+4999441
+south sudan
+SS
+South Sudan
+8260490
+panama
+PA
+Panama
+4176873
+holy see
+null
+null
+null
+luxembourg
+LU
+Luxembourg
+607728
+lebanon
+LB
+Lebanon
+6848925
+mongolia
+MN
+Mongolia
+3170208
+occupied palestinian territory
+null
+null
+null
+italy
+IT
+Italy
+60431283
+finland
+FI
+Finland
+5518050
+bosnia and herzegovina
+BA
+Bosnia and Herzegovina
+3323929
+nigeria
+NG
+Nigeria
+195874740
+benin
+BJ
+Benin
+11485048
+sudan
+SD
+Sudan
+41801533
+dr congo
+CD
+DR Congo
+84068091
+chad
+TD
+Chad
+15477751
+liberia
+LR
+Liberia
+4818977
+djibouti
+DJ
+Djibouti
+623891
+fiji
+FJ
+Fiji
+883483
+singapore
+SG
+Singapore
+3547809
+isle of man
+IM
+Isle of Man
+84077
+mexico
 MX
 Mexico
 12294193
-Uganda
+tunisia
+TN
+Tunisia
+11565204
+bahamas
+BS
+Bahamas
+385640
+bhutan
+BT
+Bhutan
+754394
+uruguay
+UY
+Uruguay
+3449299
+uganda
 UG
 Uganda
 42723139
-Suriname
+gabon
+GA
+Gabon
+2119275
+british virgin islands
+VG
+British Virgin Islands
+29802
+niger
+NE
+Niger
+22442948
+kyrgyzstan
+KG
+Kyrgyzstan
+6315800
+pakistan
+PK
+Pakistan
+212215030
+cabo verde
+CV
+Cabo Verde
+543767
+martinique
+MQ
+Martinique
+432900
+macao
+MO
+Macao
+520400
+kosovo
+XK
+Kosovo
+1845300
+mayotte
+YT
+Mayotte
+159042
+georgia
+GE
+Georgia
+3731000
+yemen
+YE
+Yemen
+28498687
+cayman islands
+KY
+Cayman Islands
+64174
+argentina
+AR
+Argentina
+44494502
+jordan
+JO
+Jordan
+9956011
+anguilla
+AI
+Anguilla
+13254
+burundi
+BI
+Burundi
+11175378
+iran (islamic republic of)
+IR
+Iran
+81800269
+slovakia
+SK
+Slovakia
+5447011
+belgium
+BE
+Belgium
+11422068
+uzbekistan
+UZ
+Uzbekistan
+32955400
+tanzania
+TZ
+Tanzania
+56318348
+grenada
+GD
+Grenada
+111454
+netherlands
+NL
+Netherlands
+17231017
+sao tome and principe
+null
+null
+null
+guam
+GU
+Guam
+165768
+russian federation
+RU
+Russia
+144478050
+eritrea
+null
+null
+null
+croatia
+HR
+Croatia
+4089400
+republic of ireland
+IE
+Ireland
+4853506
+nepal
+NP
+Nepal
+28087871
+morocco
+MA
+Morocco
+36029138
+bermuda
+BM
+Bermuda
+63968
+saint martin
+MF
+Saint Martin
+37264
+suriname
 SR
 Suriname
 575991
-Greenland
+guadeloupe
+GP
+Guadeloupe
+443000
+central african republic
+CF
+Central African Republic
+4666377
+french guiana
+GF
+French Guiana
+195506
+burma
+null
+null
+null
+romania
+RO
+Romania
+19473936
+angola
+AO
+Angola
+30809762
+new zealand
+NZ
+New Zealand
+4885500
+sierra leone
+SL
+Sierra Leone
+7650154
+latvia
+LV
+Latvia
+1926542
+kazakhstan
+KZ
+Kazakhstan
+18276499
+sint maarten
+SX
+Sint Maarten
+40654
+saint barthelemy
+null
+null
+null
+egypt
+EG
+Egypt
+98423595
+united kingdom
+GB
+United Kingdom
+66488991
+north macedonia
+MK
+North Macedonia
+2082958
+malta
+MT
+Malta
+483530
+iceland
+IS
+Iceland
+353574
+myanmar
+MM
+Myanmar
+53708395
+montenegro
+ME
+Montenegro
+622345
+papua new guinea
+PG
+Papua New Guinea
+8606316
+qatar
+QA
+Qatar
+2781677
+ms zaandam
+null
+null
+null
+saint vincent and the grenadines
+null
+null
+null
+barbados
 BB
 Barbados
-623
+286641
+new caledonia
+NC
+New Caledonia
+284060

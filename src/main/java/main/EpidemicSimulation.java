@@ -5,17 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import parser.CountryInfoHelper;
-import parser.JHUCSSEParser;
-import parser.NCoV2019Parser;
+import parser.*;
+
+import java.util.ArrayList;
 
 @SpringBootApplication
 @ComponentScan(basePackages = { "account" })
 public class EpidemicSimulation {
     public static void main(String[] args) {
         CountryInfoHelper.Init();
-        ParserTest();
-        JHUCSSETest();
+        FullParcerTest();
 
         ConfigurableApplicationContext context = SpringApplication.run(EpidemicSimulation.class, args);
 
@@ -34,5 +33,20 @@ public class EpidemicSimulation {
         var res = parser.Parse();
 
         System.out.println(res.data.get(res.data.size() - 1).toString());
+    }
+
+    public static void FullParcerTest() {
+        var resList = new ArrayList<ParserData>();
+
+        NCoV2019Parser parser1 = new NCoV2019Parser();
+        resList.add(parser1.Parse());
+
+        JHUCSSEParser parser2 = new JHUCSSEParser();
+        resList.add(parser2.Parse());
+
+        System.out.println(resList.get(1).data.get(resList.get(1).data.size() - 3).GetTotal());
+        System.out.println(resList.get(1).data.get(resList.get(1).data.size() - 3));
+
+        var res = Parser.Merge(resList);
     }
 }
