@@ -44,7 +44,7 @@ public class CountryInfoHelper {
 
                 bf.write(entry.getValue().countryCode + '\n');
                 bf.write(entry.getValue().name + '\n');
-                bf.write(Integer.toString(entry.getValue().population) + '\n');
+                bf.write(Long.toString(entry.getValue().population) + '\n');
             }
 
         } catch (IOException e) {
