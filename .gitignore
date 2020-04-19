@@ -103,3 +103,5 @@ fabric.properties
 
 .idea/*
 /.gradle/
+
+CountryInfoHelperCache.txt
