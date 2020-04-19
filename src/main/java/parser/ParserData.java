@@ -21,21 +21,22 @@ public class ParserData {
         int cur = 0, pdCur = 0;
 
         while (cur < data.size() && pdCur < pd.data.size()) {
-            switch (data.get(cur).date.compareTo(pd.data.get(pdCur).date)) {
-                case -1:
-                    mergedData.add(data.get(cur));
-                    cur++;
-                    break;
-                case 1:
-                    mergedData.add(pd.data.get(pdCur));
-                    pdCur++;
-                    break;
-                default:
-                    data.get(cur).Merge(pd.data.get(pdCur));
-                    mergedData.add(data.get(cur));
-                    pdCur++;
-                    cur++;
-                    break;
+            var first = data.get(cur);
+            var second = pd.data.get(pdCur);
+
+            int cmp = first.date.compareTo(second.date);
+
+            if (cmp < 0) {
+                mergedData.add(data.get(cur));
+                cur++;
+            } else if (cmp > 0) {
+                mergedData.add(pd.data.get(pdCur));
+                pdCur++;
+            } else {
+                data.get(cur).Merge(pd.data.get(pdCur));
+                mergedData.add(data.get(cur));
+                pdCur++;
+                cur++;
             }
         }
 

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class EpidemicSimulation {
     public static void main(String[] args) {
         CountryInfoHelper.Init();
-        FullParcerTest();
+        //FullParcerTest();
 
         ConfigurableApplicationContext context = SpringApplication.run(EpidemicSimulation.class, args);
 
