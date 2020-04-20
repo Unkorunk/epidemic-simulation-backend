@@ -8,8 +8,13 @@ public class BalPerf {
     private static ParserData cached = null;
 
     public static void Update(int duration, int rateInf, int rateDea, int rateRec) {
-        var parseData = new NCoV2019Parser().Parse();
-        parseData.Merge(new JHUCSSEParser().Parse());
+        ParserData parseData = new ParserData();
+        try {
+            parseData.Merge(new NCoV2019Parser().Parse());
+        } catch (Exception ignored) {}
+        try {
+            parseData.Merge(new JHUCSSEParser().Parse());
+        } catch (Exception ignored) {}
 
         Simulation.rateInf = rateInf;
         Simulation.rateDea = rateDea;
