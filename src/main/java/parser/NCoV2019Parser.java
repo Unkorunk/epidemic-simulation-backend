@@ -13,7 +13,7 @@ public class NCoV2019Parser extends Parser {
         var res = new ParserData();
         res.source = "ncov2019.live";
         var todayData = new DayData();
-        todayData.date.minusDays(3);
+        todayData.date = todayData.date.minusDays(3);
 
         Document doc = null;
 
@@ -37,6 +37,7 @@ public class NCoV2019Parser extends Parser {
 
             if (country.size() > 0) {
                 String name = country.attr("data-name");
+
                 var greenEls = el.getElementsByClass("text--green");
                 int infected = Integer.parseInt(greenEls.eachText().get(0).replace(",", ""));
 

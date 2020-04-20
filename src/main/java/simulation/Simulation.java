@@ -25,9 +25,9 @@ public class Simulation {
             for (var country_code : prevData.countries.keySet()) {
                 var countryDataOld = prevData.countries.get(country_code);
 
-                var infected = countryDataOld.infected + countryDataOld.infected / rateInf;
-                var deaths = countryDataOld.deaths + countryDataOld.infected / rateDea;
-                var recovered = countryDataOld.recovered + countryDataOld.infected / rateRec;
+                long infected = countryDataOld.infected + countryDataOld.infected / rateInf;
+                long deaths = countryDataOld.deaths + countryDataOld.infected / rateDea;
+                long recovered = countryDataOld.recovered + countryDataOld.infected / rateRec;
 
                 var countryDataNew = new CountryData(
                         new Country(countryDataOld.countryCode, countryDataOld.countryName, countryDataOld.population),

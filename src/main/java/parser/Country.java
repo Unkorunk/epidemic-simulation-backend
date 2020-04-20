@@ -3,9 +3,9 @@ package parser;
 public class Country {
     public String countryCode;
     public String name;
-    public int population;
+    public long population;
 
-    public Country(String code, String name, int population) {
+    public Country(String code, String name, long population) {
         this.countryCode = code;
         this.name = name;
         this.population = population;

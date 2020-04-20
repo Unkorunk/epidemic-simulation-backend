@@ -22,6 +22,8 @@ public class CountryInfoHelper {
 
     private static HashMap<String, Country> cachedResults;
 
+
+
     public static void SaveCache() {
         System.out.println("Start saving cache. Processed " + calls + " calls");
 
@@ -44,7 +46,7 @@ public class CountryInfoHelper {
 
                 bf.write(entry.getValue().countryCode + '\n');
                 bf.write(entry.getValue().name + '\n');
-                bf.write(Integer.toString(entry.getValue().population) + '\n');
+                bf.write(Long.toString(entry.getValue().population) + '\n');
             }
 
         } catch (IOException e) {
@@ -60,46 +62,39 @@ public class CountryInfoHelper {
         }
     }
 
+    private static final HashMap<String, String> aliases = new HashMap<>() {{
+        put("kyrgyz republic", "kyrgyzstan");
+        put("us", "united states");
+        put("mainland china", "china");
+        put("hong kong sar", "china");
+        put("tanzania united republic of", "tanzania");
+        put("macau", "macao");
+        put("macao sar", "macao");
+        put("cape verde", "cabo verde");
+        put("northern ireland", "united kingdom");
+        put("north ireland", "united kingdom");
+        put("uk", "united kingdom");
+        put("czech republic", "czechia");
+        put("viet nam", "vietnam");
+        put("republic of korea", "south korea");
+        put("korea, south", "south korea");
+        put("taipei and environs", "taiwan");
+        put("congo (kinshasa)", "dr congo");
+        put("congo (brazzaville)", "congo republic");
+        put("republic of congo", "congo republic");
+        put("republic of the congo", "congo republic");
+        put("cote d'ivoire", "ivory coast");
+        put("curacao", "curaçao");
+        put("east timor", "timor-leste");
+        put("reunion", "réunion");
+    }};
+
     public static Country GetCountryInfo(String countryName) {
         countryName = countryName.toLowerCase();
         countryName = countryName.replace(",", "");
 
-        if (countryName.equals("kyrgyz republic")) {
-            countryName = "kyrgyzstan";
-        } else if (countryName.equals("us")) {
-            countryName = "united states";
-        } else if (countryName.equals("mainland china") || countryName.equals("hong kong sar")) {
-            countryName = "china";
-        } else if (countryName.equals("tanzania, united republic of")) {
-            countryName = "tanzania";
-        } else if (countryName.equals("macau") || countryName.equals("macao sar")) {
-            countryName = "macao";
-        } else if (countryName.equals("cape verde")) {
-            countryName = "cabo verde";
-        } else if (countryName.equals("eritrea")) {
-            countryName = "eritrea";
-        } else if (countryName.equals("northern ireland") || countryName.equals("north ireland") || countryName.equals("uk")) {
-            countryName = "united kingdom";
-        } else if (countryName.equals("czech republic")) {
-            countryName = "czechia";
-        } else if (countryName.equals("viet nam")) {
-            countryName = "vietnam";
-        } else if (countryName.equals("republic of korea") || countryName.equals("korea, south")) {
-            countryName = "south korea";
-        } else if (countryName.equals("taipei and environs")) {
-            countryName = "taiwan";
-        } else if (countryName.equals("congo (kinshasa)")) {
-            countryName = "dr congo";
-        } else if (countryName.equals("congo (brazzaville)") || countryName.equals("republic of congo") || countryName.equals("republic of the congo")) {
-            countryName = "congo republic";
-        } else if (countryName.equals("cote d'ivoire")) {
-            countryName = "ivory coast";
-        } else if (countryName.equals("curacao")) {
-            countryName = "curaçao";
-        } else if (countryName.equals("east timor")) {
-            countryName = "timor-leste";
-        } else if (countryName.equals("reunion")) {
-            countryName = "réunion";
+        if (aliases.containsKey(countryName)) {
+            countryName = aliases.get(countryName);
         }
 
         if (cachedResults.containsKey(countryName)) {
