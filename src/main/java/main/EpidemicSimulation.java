@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import parser.*;
+import simulation.BalPerf;
 
 import java.util.ArrayList;
 
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 public class EpidemicSimulation {
     public static void main(String[] args) {
         CountryInfoHelper.Init();
+        BalPerf.Update(20, 24, 317, 532);
         //FullParcerTest();
 
         ConfigurableApplicationContext context = SpringApplication.run(EpidemicSimulation.class, args);
