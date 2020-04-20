@@ -29,7 +29,7 @@ public class NCoV2019Parser extends Parser {
         }
 
 
-        Element globalContainer = doc.getElementById("container_global");
+        Element globalContainer = doc.getElementById("container_world");
         Elements rows = globalContainer.getElementsByTag("tr");
 
         for (var el : rows) {
