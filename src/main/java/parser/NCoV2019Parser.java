@@ -47,6 +47,10 @@ public class NCoV2019Parser extends Parser {
                 var blueEls = el.getElementsByClass("text--blue");
                 int recovered = Integer.parseInt(blueEls.eachText().get(0).replace(",", ""));
 
+                if (infected == 0) {
+                    continue;
+                }
+
                 Country countryInfo = CountryInfoHelper.GetCountryInfo(name);
                 if (countryInfo == null) {
                     todayData.AddCountry(new CountryData(new Country("Other", "Other", -1), infected, deaths, recovered));

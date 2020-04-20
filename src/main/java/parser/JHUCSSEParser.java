@@ -123,6 +123,10 @@ public class JHUCSSEParser extends Parser {
                     int deaths = Integer.parseInt(line[deathColumn]);
                     int recovered = Integer.parseInt(line[recoveredColumn]);
 
+                    if (infected == 0) {
+                        continue;
+                    }
+
                     if (curCountry == null) {
                         curDay.AddCountry(new CountryData(new Country("Other", "Other", -1), infected, deaths, recovered));
                         continue;
